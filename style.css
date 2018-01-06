@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+}
+h1{
+	font-size:30px;
+	font-style:normal;
+	font-weight:100;
+}
+p{
+	font-size:14px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:200%;
+	color:#06F;
+}
+.btss{
+	background:#2980b9;
+	width:100% auto;
+	height:50px;
+	font-size:12px;
+	color:#FFF;
+	padding:10px;
+}
+.btss a:link{
+	color:white	;
+	text-decoration:none;
+}
+.btss a:visited{
+	color:white;
+	text-decoration:none;
+}
+#atas-kiri{
+	float:left;
+	padding-left:15px;
+	font-size: 22px;
+}
+#atas-kanan{
+	float:right;
+	padding-right:15px;
+	font-size: 15px;
+	cursor: pointer;
+}
+#header{
+	width:100% auto;
+	height:660px;
+	text-align:center;
+	color:white;
+	font-size:24px;
+	background:url(gambar/books-library-room-decoration-1920x1080.jpg) no-repeat;
+	background-size:cover;
+	padding:10px;
+}
+.cari {
+	width:50%;
+	height:40px;
+	background:rgba(225,225,225,50%);
+	border:solid 1px #fff;
+	color: black;
+	font-size:16px;
+	padding:10px;
+	border-radius: 4px;
+}
+.search{
+	width:100px;
+	height:50px;
+	background:#5cb3e1;
+	border:none;
+	border-radius:4px;
+	color:white;
+	font-size:16px;
+}
+.search:hover{
+	background:#4290ba;
+	cursor:pointer;
+}
+#body{
+	width:100% auto;
+	height:90%;
+	background:#f0f0f0;
+}
+#konten {
+	height:20%;
+	width:100%;
+	background:#FFF;	
+}
+#bawah{
+	width:100% auto;
+	height:100% auto;
+	background:#3498db;
+	padding-left:15%;
+	padding-top: 20px;
+}
+#bawah a:link{
+	color:#666;
+	text-decoration:none;
+}
+#bawah a:visited{
+	color:#666;;
+}
+.tbl{
+	float: left;
+	color:#666;
+	width:100% auto;
+	margin: 20px;
+	color: white;
+}
+#home{
+	color:black;
+	padding:5%;
+	text-align:justify;
+}
+#cover{
+	width:10%;
+}
+#judul{
+	margin:0;
+	height:50%;
+	width:100%;
+}
+.result a:link {
+	color:#09F;
+	text-decoration:none;
+}
+.result a:visited {
+	color:#09F;
+	text-decoration:none;
+}
+.list{
+	border-bottom:solid 1px #CCCCCC;
+	width:100%px;
+}
+.selengkapnya{
+	width:100px;
+	height:30px;
+	padding:5px;
+	background:#09F;
+	color:#FFF;
+	font-size:14px;
+	border:none;
+}
+.selengkapnya:hover{
+	background:#03F;
+	cursor:pointer;
+	transition:1s;
+}
+.download {
+	height:50px;
+	width:100px;
+	color:#FFF;
+	background:#0C6;
+	border:none;
+	border-radius:4px;
+}
+.download:hover{
+	background:#096;
+	cursor:pointer;
+}
+.modal-title{
+	color: black;
+	font-size: 20px;
+}
+.teks{
+	font-size: 20px;
+}
+.thumbnails{
+	height: 540px;
+}
+.regis{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.regis-f{
+	background-color: #19B5FE;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10px;
+	height: auto;
+	color: white;
+	padding: 50px;
+	border: 2px solid #fff;
+}
+.regis-j{
+	padding: 6%;
+	background:url(gambar/books-library-room-decoration-1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: 100%;
+}
+#footer {
+	text-align:center;
+	color: white;
+	height: 30px;
+	font-size: 10px;
+	background:#2980b9;
+	padding: 10px;
+}
