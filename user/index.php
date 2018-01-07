@@ -1,0 +1,9 @@
+<?php 
+session_start();
+if(isset($_SESSION['username'])){
+  header('location:media.php?module=beranda');
+}
+else{
+  header('location:../index.php');
+}
+?>

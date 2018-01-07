@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+}
+body{
+	background-color:#f0f0f0;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li
+{
+	float: left;
+	margin: 5px;
+	text-align: center;
+	border-radius: 4px;
+}
+#kiri{
+	float:left;
+	background:#2c2b2b;
+	width:100% auto;
+	height:100%;
+	padding-top:15px;
+	margin-right:2%;
+	position:fixed;
+	text-align:center;
+	padding:2%;
+}
+/*a:link{
+	text-decoration:none;
+	color:#66aedb;
+}
+a:visited {
+	text-decoration:none;
+	color:#66aedb;
+}*/
+#menu:hover {
+	background-color:#262424;
+}
+h1{
+	color: white;
+}
+#konten{
+	text-align:left;
+	padding:2%;
+	height:20%;
+	width:100%;
+}
+#footer {
+	text-align:center;
+	color: white;
+	height: 30px;
+	font-size: 10px;
+	background:#2980b9;
+	padding: 10px;
+}
+.tombol_edit{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:5px 15px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:10pt;
+}
+.tombol_edit:hover{
+  background:#397aac;
+  border-bottom:5px solid #2d6590;
+  cursor:pointer;
+}
+.tombol_hapus{
+  background:#ec8871;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #c96d57;
+  padding:5px 10px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:10pt;
+}
+.tombol_hapus:hover{
+	background:#c5634c;
+	border-bottom:5px solid #974836;
+	cursor:pointer;
+}
+.tombol_tambah{
+  background:#9fdb87;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #78af63;
+  padding:5px 15px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:10pt;
+}
+.tombol_tambah:hover{
+	background:#7db666;
+	border-bottom:5px solid #5a8e46;
+	cursor:pointer;
+} 
+th, td {
+	width:100% auto;
+    text-align: left;
+	font-size:100%;
+}
+#header-login{
+	margin-top:50px;
+	background:#FFF;
+	width:350px;
+	padding:10px;
+	border-radius:4px;
+}
+#body-login{
+	background:#FFF;
+	width:350px;
+	padding:10px;
+	text-align:center;
+}
+#footer-login{
+	background:#f6f6f6;
+	padding:10px;
+	text-align:center;
+	font-size:12px;
+	border-radius:4px;
+}
+#input {
+	margin-bottom:10px;
+	padding-left:30px;
+	height:25px;
+	width:220px;
+	font-size:16px;
+	border:solid 1px #c8c8c8;
+	background-image:url(gambar/menu_user.png);
+	background-position:left;
+	background-size: 20px 20px;
+	background-repeat:no-repeat;
+}
+#password {
+	margin-bottom:10px;
+	padding-left:30px;
+	height:25px;
+	width:220px;
+	font-size:16px;
+	border:solid 1px #c8c8c8;
+	background-image:url(gambar/password.png);
+	background-position:left;
+	background-size: 20px 20px;
+	background-repeat:no-repeat;
+}
+.login{
+	border-radius:4px;
+	width:250px;
+	height:30px;
+	background-color:#61ce5c;
+	color:white;
+	font-size:16px;
+	border:none;
+}
+.login:hover{
+	background-color:#4db148;
+	cursor:pointer;
+}
+.btss{
+	background:#2980b9;
+	width:100% auto;
+	height:50px;
+	font-size:12px;
+	color:#FFF;
+	padding:10px;
+}
+.btss a:link{
+	color:white	;
+	text-decoration:none;
+}
+.btss a:visited{
+	color:white;
+	text-decoration:none;
+}
+#atas-kiri{
+	float:left;
+	padding-left:15px;
+	font-size: 22px;
+}
+#atas-kanan{
+	float:right;
+	padding-right:15px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.jarak{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.thumbnails{
+	height: 540px;
+}
+#header{
+	width:100% auto;
+	height:660px;
+	text-align:center;
+	color:white;
+	font-size:24px;
+	background:url(../gambar/books-library-room-decoration-1920x1080.jpg) no-repeat;
+	background-size:cover;
+	padding:10px;
+}
+.cari {
+	width:50%;
+	height:40px;
+	background:rgba(225,225,225,50%);
+	border:solid 1px #fff;
+	color: black;
+	font-size:16px;
+	padding:10px;
+	border-radius: 4px;
+}
+.search{
+	width:100px;
+	height:50px;
+	background:#5cb3e1;
+	border:none;
+	border-radius:4px;
+	color:white;
+	font-size:16px;
+}
+.search:hover{
+	background:#4290ba;
+	cursor:pointer;
+}
+#bawah{
+	width:100% auto;
+	height:100% auto;
+	background:#3498db;
+	padding-left:15%;
+	padding-top: 20px;
+}
+#bawah a:link{
+	color:#666;
+	text-decoration:none;
+}
+#bawah a:visited{
+	color:#666;;
+}
+.tbl{
+	float: left;
+	color:#666;
+	width:100% auto;
+	margin: 20px;
+	color: white;
+}
